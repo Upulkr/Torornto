@@ -1,6 +1,10 @@
 
 
   {
+
+    "buildCommand": "next build",
+
+
     "routes":[
       {
        

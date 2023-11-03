@@ -161,6 +161,7 @@
     "queue-microtask": "^1.2.3",
     "range-parser": "^1.2.1",
     "raw-body": "^2.5.1",
+    "react": "^18.2.0",
     "react-router": "^6.18.0",
     "react-router-dom": "^6.18.0",
     "read-cache": "^1.0.0",
@@ -209,6 +210,7 @@
     "util-deprecate": "^1.0.2",
     "utils-merge": "^1.0.1",
     "vary": "^1.1.2",
+    "vite": "^4.5.0",
     "webidl-conversions": "^7.0.0",
     "whatwg-url": "^11.0.0",
     "wide-align": "^1.1.5",
@@ -218,7 +220,7 @@
   },
   "scripts": {
     "dev": "nodemon api/index.js",
-    "start":"node api/index.js"
+    "start": "node api/index.js"
   },
   "keywords": [],
   "author": "",

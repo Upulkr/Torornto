@@ -39,7 +39,7 @@ const HeroSection = () => {
             <Zoom className="h-full">
          
            <Image
-                className="overflow-y-hidden h-1/2 w-full md:h-full md:w-[60%]"
+                className="ml-4 overflow-y-hidden h-1/2 w-full md:h-full md:w-[60%] gap-0 p-2"
                 alt="HeroImg1"
                 objectCover="object-cover"
                 image={renderProfileImg(index)}
@@ -48,7 +48,7 @@ const HeroSection = () => {
             
             </Zoom>
 
-            <div className=" overflow-y-hidden bg-zinc-900 overflow-x absolute right-0 top-1/2 flex h-1/2 w-full flex-col justify-start gap-2 px-4 md:top-0 md:h-full md:w-[50%] md:justify-center md:gap-4 md:px-6 lg:gap-8 lg:px-20">
+            <div className="overflow-x-hidden  overflow-y-hidden bg-zinc-900 overflow-x absolute right-0 top-1/2 flex h-1/2 w-full flex-col justify-start gap-2 px-4 md:top-0 md:h-full md:w-[50%] md:justify-center md:gap-4 md:px-6 lg:gap-8 lg:px-20 bg-white">
               <Text
                 as="h1"
                 className="text-zinc-100 mt-10 text-4xl font-extrabold md:mt-10 md:text-5xl lg:text-6xl text-600 text-deep-orange-900 drop-shadow-2xl"

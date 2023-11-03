@@ -36,7 +36,7 @@ export const HeroTexts = [
     },
     {
         Heading: "Indulge in the luxury of beauty!",
-        Paragraph: "Push your limits and achieve greatness at our salon! Join our supportive community and embark on a journey of self-improvement and empowerment!",
+        Paragraph: "Push your limits and achieve greatness at our salon! Join our supportive community and embark on a journey of self-!",
         Button: "Book  Today!",
         to:'/booking'
     },

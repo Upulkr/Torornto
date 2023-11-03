@@ -54,7 +54,7 @@ function Booking() {
           (result) => {
             console.log(result.text);
             toast.success(
-              " Your Booking was done successfully , please check your email"
+              " Your Booking was done successfully, please check your email"
             );
           },
           (error) => {

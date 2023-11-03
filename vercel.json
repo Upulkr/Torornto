@@ -1,5 +1,35 @@
-{
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
-    ]
+
+
+  {
+    "routes":[
+      {
+       
+       
+        "src": "/",
+        "dast":"/"
+      },
+      {
+     
+        "src": "/services",
+        "dast":"/"
+      },
+      {
+    
+     
+        "src": "/about",
+        "dast":"/"
+      },
+      {
+       
+  
+        "src": "/contact",
+        "dast":"/"
+      },
+      {
+     
+      
+        "src": "/booking",
+        "dast":"/"
+  }
+]
   }
